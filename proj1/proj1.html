@@ -8203,6 +8203,17 @@ Final Test Log-Probability: -2.6462074084741056
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Similar to the 2 state HMM, if the 4 state HMM was initialized symmetrically where the probabilites were set to uniform, the model would be less efficient at learning. This is because the four states emission and transition probabilities will be the same. So, the model parameters will remain symmetric. With both states behaving identically, the 4 state HMM will essentially learn as effectively as a simple 1 HMM model. This is only if the initialization is perfectly uniform.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="(2B)"><strong>(2B)</strong><a class="anchor-link" href="#(2B)">¶</a></h2><p>Plot average log-probabilities of train and test data</p>
 </div>
 </div>
